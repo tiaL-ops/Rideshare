@@ -1,0 +1,6 @@
+**Auth** - Will have login information  
+- **Users** - Information about users  
+- **Cars** – basic information about the 3 cars  
+- **Driver_Availability** – when each driver is available with a specific car  
+- **Bookings** – ride requests and schedules (linking rider, driver, car, destination, etc.)  
+- **Gas_Reports** – fuel expenses submitted by drivers after each ride
