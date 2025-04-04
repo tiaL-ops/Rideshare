@@ -4,6 +4,7 @@ CREATE TABLE Auth (
     user_id INTEGER NOT NULL,
     username TEXT NOT NULL UNIQUE,
     password_hash TEXT NOT NULL,
+    created_at TEXT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
 
